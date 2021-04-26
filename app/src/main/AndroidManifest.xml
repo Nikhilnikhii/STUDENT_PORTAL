@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nakportal143">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".fees" />
+        <activity android:name=".java_tutorial" />
+        <activity android:name=".java_book" />
+        <activity android:name=".cse_books" />
+        <activity android:name=".mtech_books" />
+        <activity android:name=".btech_books" />
+        <activity android:name=".books" />
+        <activity android:name=".results" />
+        <activity android:name=".events" />
+        <activity android:name=".attendence" />
+        <activity android:name=".schedule" />
+        <activity android:name=".enrollment" />
+        <activity android:name=".homepage" />
+        <activity android:name=".signup" />
+        <activity android:name=".logon" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
